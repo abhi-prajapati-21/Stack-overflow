@@ -1,0 +1,55 @@
+.left-sidebar
+{
+ width: 164px;   
+ box-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+ transition: box-shadow ;
+ box-sizing: border-box;
+ font-size: 13px;
+}
+.home-width
+{
+   width: 100%; 
+}
+.side-nav
+{
+  width: 100%;
+  position: static;
+  margin: 65px 0px 0px 0px;
+ 
+}
+.side-nav-div 
+{
+    padding: 10px 0px;
+    text-align: left;
+}
+.home-align
+{
+  justify-content: flex-start
+  !important;
+}
+
+.side-nav-div div
+{
+padding-left: 10px;
+}
+.side-nav-links
+{
+ text-decoration: none;
+ color: #3a3a3a;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-left: 10px;
+ transition: .2s;   
+}
+.side-nav-links:hover
+{
+ color: black;   
+}
+.active
+{
+ font-weight: bolder;
+ color: black;   
+ background-color: rgb(225,225,225);
+ border-right: 3px solid #ef8236;
+}
